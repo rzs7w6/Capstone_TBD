@@ -21,7 +21,24 @@ namespace UMB_APP
                     Children = {
                         new Label {
                             HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
+                            Text = "Health Savings",
+
+                        },
+                        new Label
+                        {
+                            HorizontalTextAlignment = TextAlignment.Center,
+                            Text = "Application",
+                        },
+                        new Entry
+                        {
+                            HorizontalTextAlignment = TextAlignment.Center,
+                            Placeholder = "Username"
+                        },
+                        new Entry
+                        {
+                            HorizontalTextAlignment = TextAlignment.Center,
+                            Placeholder = "Password",
+                            IsPassword = true
                         }
                     }
                 }
